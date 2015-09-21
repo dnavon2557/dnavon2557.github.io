@@ -38,3 +38,11 @@ a {
 a:hover {
 	padding-left: 3%;
 }
+#bio {
+	text-align:center;
+}
+p{
+	font: normal normal normal 1.5em Helvetica, Arial, sans-serif;
+	color: #616161;
+	padding: 0 5%;
+}
