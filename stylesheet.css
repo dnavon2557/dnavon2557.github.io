@@ -24,6 +24,9 @@ ul {
 	padding-left: 0%;
 	
 }
+li{
+	padding-bottom: 1.5%;
+}
 a {
 	color: #00B4FF;
 	font: 2.5em Helvetica,Arial,sans-serif;
