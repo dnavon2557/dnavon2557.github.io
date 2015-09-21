@@ -1,13 +1,36 @@
 body {
 	background-color: #F9F9F9;
+	margin: 2%;
+	padding: 0.5%;
+}
+div {
+	float:left;
+	padding-left: 1%;
+
+
+}
+img {
+	float:left;
 }
 h1 {
-	color: #666;
+	color: #333;
 	font: normal normal normal 5em Helvetica, sans-serif;
-	text-align: center;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 2.5%;
+}
+ul {
+	list-style: none inside;
+	padding-bottom: 2%;
+	
 }
 a {
-	color: #0850CF;
-	font: 10em Helvetica,Arial,sans-serif;
+	color: #00B4FF;
+	font: 2.5em Helvetica,Arial,sans-serif;
 	text-decoration: none;
+	text-align: left;
+	transition: padding-left 0.5s;
+}
+a:hover {
+	padding-left: 3%;
 }
