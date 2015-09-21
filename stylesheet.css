@@ -1,10 +1,10 @@
 h1 {
-	font-color: #666;
+	color: #666;
 	font: normal normal normal 5em Helvetica, sans-serif;
 	text-align: center;
 }
 a {
-	font-color: #0850CF;
+	color: #0850CF;
 	font: 10em Helvetica,Arial,sans-serif;
 	text-decoration: none;
 }
