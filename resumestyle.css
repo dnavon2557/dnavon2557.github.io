@@ -1,3 +1,6 @@
+body{
+	background-color:#F7F7F7;
+}
 div#name_and_contact{
 	height: 7em;
 	width:100%;
@@ -17,13 +20,13 @@ div#contact_container{
 	float: right;
 	
 }
-ul#contact{
+ul#contact li{
 	text-align:right;
 	list-style: none;
-	color: #595959;
+	color: #666;
 }
-div.main_container{
-	float:none;
+div#main_container{
+	padding: 0 2.5%;
 	
 }
 
@@ -34,7 +37,31 @@ div.main_list{
 }
 div.mini_col{
 	float:left;
-	width:33%;
+	width:30%;
+	margin-left: 1%;
+	padding-right: 2%;
+	background-color: #FCFCFC;
+	height: 14em;
+	box-shadow: 0px 0px 4px 0px #666;
+
+}
+.mini_col h2{
+	font-size: 1.5em;
+	text-align:center;
+}
+.mini_col ul li{
+	list-style-type: none;
+
+}
+
+.mini_col ul li:before{
+	content:"- ";
+	color:#3A94CF ;
+}
+
+.mini_col div.divider{
+	width:80%;
+	margin-left: 10%;
 }
 div#mini_col_container{
 	float:left;
@@ -52,4 +79,13 @@ li{
 	font-family: Helvetica,Arial,Verdana,sans-serif;
 	font-size: 100%;
 	list-style-type: disc;
+	color: #191919;
+}
+ul.l1{
+	padding-left: 5%;
+}
+div.divider{
+	width:90%;
+	height: 1px;
+	background-color:#64B3DF;
 }
