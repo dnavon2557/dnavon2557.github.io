@@ -1,0 +1,54 @@
+div#name_and_contact{
+	height: 7em;
+	width:100%;
+
+}
+h1#name{
+	font: 5em Helvetica, Arial, Verdana, sans-serif;
+	font-weight: bold;
+	color: #64B3DF;
+	margin-top: 1.5%;
+	margin-bottom: 1%;
+	margin-right: 2.5%;
+	float:left;
+	width:50%;
+}
+div#contact_container{
+	float: right;
+	
+}
+ul#contact{
+	text-align:right;
+	list-style: none;
+	color: #595959;
+}
+div.main_container{
+	float:none;
+	
+}
+
+div.main_list{
+
+	float:left;
+	width: 50%;
+}
+div.mini_col{
+	float:left;
+	width:33%;
+}
+div#mini_col_container{
+	float:left;
+	width: 50%;
+}
+div#highschool{
+
+}
+h2{
+	font: 1.75em Helvetica, Arial, Verdana, sans-serif;
+	height: 0.5em;
+	color: #0e7170;
+}
+li{
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+	font-size: 100%;
+}
