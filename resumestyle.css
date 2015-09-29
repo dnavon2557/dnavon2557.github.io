@@ -1,3 +1,4 @@
+/* A seperate stylesheet for the resume.html page. The page is layed out with various floating divs to give the appearance of two side by side columns with the rightmost column also containing three mini columns. */
 body{
 	background-color:#F7F7F7;
 }
@@ -43,7 +44,6 @@ div.mini_col{
 	background-color: #FCFCFC;
 	height: 14em;
 	box-shadow: 0px 0px 4px 0px #666;
-
 }
 .mini_col h2{
 	font-size: 1.5em;
