@@ -1,18 +1,31 @@
 /*A stylesheet that contains the style rules for the index.html and bio.html pages. The resume.html doc has its own stylesheet */
 body {
-	background-color: #F9F9F9;
+	background: linear-gradient( rgba(100, 175, 225, .5), rgba(100, 175, 225, .5)),
+		 		url('honeycomb.jpg');
 	margin: 2%;
 	padding: 0.5%;
 }
-div {
-	float:left;
-	padding-left: 1%;
+div#navbar {
+	background: rgba(255, 255, 255, 0.95);
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	padding: 2% 0%;
+	z-index: 1;
+}
+div.divider {
+	margin: auto;
+	height: 1px;
+	width: 70%;
+	background-image: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0), #333, rgba(0, 0, 0, 0) );
+	padding: 0;
 
 
 }
-img {
-	float:left;
-}
+
 h1 {
 	color: #333;
 	font: normal normal normal 5em Helvetica, sans-serif;
@@ -23,27 +36,69 @@ h1 {
 ul {
 	list-style: none inside;
 	padding-left: 0%;
+	text-align:center;
+	margin: 0.5%;
 	
 }
 li{
-	padding-bottom: 1.5%;
+	/*padding-bottom: 0.5%;*/
+
+	display: inline;
+	padding: 0 1%;
 }
 a {
 	color: #00B4FF;
-	font: 2.5em Helvetica,Arial,sans-serif;
+	font: 1.5em Helvetica,Arial,sans-serif;
 	text-decoration: none;
 	text-align: left;
-	padding-bottom: 2%;
-	transition: padding-left 0.5s;
+	padding-bottom: 0%;
+	transition: padding-left 0.25s, padding-right 0.25s;
 }
 a:hover {
-	padding-left: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
-#bio {
+/*#bio {
 	text-align:center;
-}
+}*/
 p{
+	
 	font: normal normal normal 1.5em Helvetica, Arial, sans-serif;
 	color: #616161;
-	padding: 0 5%;
+	/*
+	background: rgba(255, 255, 255, 0.8);
+	padding: 2% 2%;
+	width: 70%;
+	margin: auto;
+	*/
+}
+p span.important{
+	font: normal normal bold 1.25em Helvetica, Arial, sans-serif;
+	color: #375b77;
+
+}
+div#text {
+	display:block;
+	width:100%;
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	  left:0%;
+
+}
+div#text div#content {
+	background: rgba(255, 255, 255, 0.8);
+	padding: 2%;
+	width: 70%;
+	margin:auto;
+}
+#content h1 {
+	font: normal normal bold 4em Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #375b77;
+	margin: 0;
+}
+#content h2 {
+	padding-left: 5%;
+	font: normal normal normal 1.5em Helvetica, Arial, sans-serif;
 }
