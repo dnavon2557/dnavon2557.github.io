@@ -109,6 +109,8 @@ img.img_preview {
 	height: 300px;
 	width: 100%;
 	object-fit: contain;	
+	-moz-object-fit: contain;	
+	-webkit-object-fit: contain;	
 	margin: auto;
 }
 ul#grid {
@@ -157,11 +159,17 @@ a#back {
 }
 div#image_gall{
 	display: flex;
+	display: -moz-flex;
+	display: -webkit-flex;
 	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 	width: 80%;
 	padding: 10%;
 	margin: auto;
 	justify-content:center;
+	-webkit-justify-content:center;
+	-moz-justify-content:center;
 }
 div#image_gall img {
 	background: rgba(255, 255, 255, 0.8);
